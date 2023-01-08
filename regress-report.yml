@@ -67,7 +67,7 @@ bugreports:
   steps-to-reproduce: |
     1. Открыта страница товара "iPhone 9" https://hexlet-products-store.vercel.app/products/1
     2. Вводим "Apple" в поле ввода
-    3. Наводим курсор на кнопку "Language" в правом верхнем углу страницы
+    3. Наводим курсор на кнопку "Language"
     4. ВЫбираем пункт "Russian"
   expected-result: |
     Заголовок "Description" в описании товара должен смениться на "Описание", описание товара должно стать на русском языке
