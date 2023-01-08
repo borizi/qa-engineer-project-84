@@ -61,15 +61,15 @@ bugreports:
  
  - summary: |
     В описании товара не меняется язык
-  environment: |
+   environment: |
     Google Chrome 108.0.5359.125 (Официальная сборка), (64 бит)
     Windows 11 Pro 21H2
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыта страница товара "iPhone 9" https://hexlet-products-store.vercel.app/products/1
     2. Вводим "Apple" в поле ввода
     3. Наводим курсор на кнопку "Language"
     4. ВЫбираем пункт "Russian"
-  expected-result: |
+   expected-result: |
     Заголовок "Description" в описании товара должен смениться на "Описание", описание товара должно стать на русском языке
-  actual-result: |
+   actual-result: |
     Заголовок "Description" не изменился и описание товара осталось на английском языке.
